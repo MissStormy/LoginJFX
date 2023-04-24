@@ -27,6 +27,6 @@ public class BajaCtrl {
     @FXML
     void OnClickOK(ActionEvent event) {
         String DNI = txtDNI.getText();
-        alumnos
+
     }
 }
