@@ -24,6 +24,7 @@ public class AltaCtrl {
     @FXML
     private TextField txtName;
 
+    ArrayList<Data> alumnos = new ArrayList<>();
     @FXML
     void OnClickAceptar(ActionEvent event) {
         String nombre = txtName.getText();
@@ -31,7 +32,7 @@ public class AltaCtrl {
         String DNI = txtDNI.getText();
 
         //Se supone que aqui tienen que guardarse los datos de alguna forma
-        ArrayList<Data> alumnos = new ArrayList<>();
+
         Data new_alumno = new Data();
         new_alumno.setNombre(nombre);
         new_alumno.setApellido(apellido);
@@ -44,5 +45,8 @@ public class AltaCtrl {
     void OnClickCancelar(ActionEvent event) {
         Stage stagePrincipal = (Stage) btnCancelar.getScene().getWindow();
         stagePrincipal.close();
+    }
+    public ArrayList<Data> DevuelveLista(){
+        return alumnos;
     }
 }
