@@ -5,7 +5,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="275.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.loginjfx.loginjfx.BajaCtrl">
    <children>
       <Label layoutX="71.0" layoutY="74.0" text="DNI" />
