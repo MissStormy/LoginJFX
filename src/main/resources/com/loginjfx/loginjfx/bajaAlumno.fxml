@@ -5,11 +5,11 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="275.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.loginjfx.loginjfx.BajaCtrl">
+<AnchorPane prefHeight="275.0" prefWidth="431.0" styleClass="body" stylesheets="@../../../CSS/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.loginjfx.loginjfx.BajaCtrl">
    <children>
-      <Label layoutX="71.0" layoutY="74.0" text="DNI" />
-      <TextField fx:id="txtDNI" layoutX="135.0" layoutY="70.0" />
-      <Button fx:id="btnOK" layoutX="109.0" layoutY="155.0" mnemonicParsing="false" onAction="#OnClickOK" text="Aceptar" />
+      <Label layoutX="82.0" layoutY="74.0" text="DNI" />
+      <TextField fx:id="txtDNI" layoutX="135.0" layoutY="70.0" prefHeight="22.0" prefWidth="198.0" />
+      <Button fx:id="btnOK" layoutX="82.0" layoutY="155.0" mnemonicParsing="false" onAction="#OnClickOK" text="Aceptar" />
       <Button fx:id="btnDeny" layoutX="270.0" layoutY="155.0" mnemonicParsing="false" onAction="#OnClickDeny" text="Cancelar" />
    </children>
 </AnchorPane>
