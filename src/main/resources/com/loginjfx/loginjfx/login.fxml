@@ -6,6 +6,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="303.0" prefWidth="461.0" styleClass="body" stylesheets="@../../../CSS/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.loginjfx.loginjfx.LoginCtrl">
    <children>
@@ -14,20 +15,25 @@
             <Image url="@../../../Img/lines.png" />
          </image>
       </ImageView>
-      <Label layoutX="79.0" layoutY="90.0" text="Usuario" />
-      <Label layoutX="79.0" layoutY="146.0" text="Password" />
-      <TextField fx:id="txtUsuario" layoutX="161.0" layoutY="87.0" prefHeight="22.0" prefWidth="223.0" />
-      <TextField fx:id="txtPass" layoutX="161.0" layoutY="143.0" prefHeight="22.0" prefWidth="223.0" />
-      <Button fx:id="btnLogin" layoutX="199.0" layoutY="220.0" mnemonicParsing="false" onAction="#OnClickLogin" text="Acceder" />
-      <ImageView fitHeight="163.0" fitWidth="181.0" layoutX="17.0" layoutY="174.0" pickOnBounds="true">
+      <Label layoutX="79.0" layoutY="109.0" text="Usuario" />
+      <Label layoutX="73.0" layoutY="168.0" text="Password" />
+      <TextField fx:id="txtUsuario" layoutX="161.0" layoutY="105.0" prefHeight="22.0" prefWidth="223.0" />
+      <TextField fx:id="txtPass" layoutX="161.0" layoutY="161.0" prefHeight="22.0" prefWidth="223.0" />
+      <Button fx:id="btnLogin" layoutX="190.0" layoutY="221.0" mnemonicParsing="false" onAction="#OnClickLogin" text="Acceder" />
+      <ImageView fitHeight="163.0" fitWidth="181.0" layoutX="11.0" layoutY="175.0" pickOnBounds="true">
          <image>
             <Image url="@../../../Img/welcome.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="163.0" fitWidth="181.0" layoutX="284.0" layoutY="174.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+      <ImageView fitHeight="163.0" fitWidth="181.0" layoutX="273.0" layoutY="175.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
          <image>
             <Image url="@../../../Img/welcome.png" />
          </image>
       </ImageView>
+      <Label layoutX="134.0" layoutY="14.0" text="Bienvenido">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
